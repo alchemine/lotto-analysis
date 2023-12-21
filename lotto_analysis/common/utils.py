@@ -3,7 +3,7 @@
 Commonly used functions and classes are here.
 """
 
-from base_project.common.env import *
+from lotto_analysis.common.env import *
 
 
 # Short function

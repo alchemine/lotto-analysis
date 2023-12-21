@@ -2,7 +2,7 @@
 
 Examples
 --------
->>> from base_project.common import *
+>>> from lotto_analysis.common import *
 """
 
 from .depth_logging import *

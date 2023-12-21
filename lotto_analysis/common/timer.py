@@ -3,7 +3,7 @@
 Context and decorator form timer.
 """
 
-from base_project.common.utils import *
+from lotto_analysis.common.utils import *
 
 
 class Timer(contextlib.ContextDecorator):
@@ -11,7 +11,7 @@ class Timer(contextlib.ContextDecorator):
 
     Examples:
         >>> from time import sleep
-        >>> from base_project.common.timer import Timer
+        >>> from lotto_analysis.common.timer import Timer
         >>> with Timer('Code1'):
         ...     sleep(1)
         * Code1        | 1.00s (0.02m)
